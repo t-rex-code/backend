@@ -59,6 +59,8 @@ adonis make:seed
 adonis serve --dev
 ```
 
-```Aparecere mais comandos
+Aparecere mais comandos
+
+```
 adonis
 ```
