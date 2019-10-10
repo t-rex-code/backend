@@ -15,10 +15,24 @@ Passos para a execução
 docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
 ```
 
+uma vez o banco configurado, execute o comando
+
+```
+adonis serve --dev
+
+```
+
 5. Subir o container do redis para fila(queue) com o comando:
 
 ```
 docker run --name nome_da_fila -p 6379:6379 -d -t redis:alpine
+```
+
+uma vez o redis configurado, execute o comando
+
+```
+adonis kue:listen
+
 ```
 
 ### Adonis comando basicos
