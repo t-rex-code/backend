@@ -64,3 +64,11 @@ Aparecere mais comandos
 ```
 adonis
 ```
+
+### Iniciar projeto
+
+Ajuda a padronizar o projeto entre os demais desenvolvedores
+
+```
+yarn eslint --init
+```
