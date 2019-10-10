@@ -1,6 +1,6 @@
-# API feita com Adonis, utilizando autenticação para sessão e ACL
+# API
 
-Api
+Feita com framework Adonis, utilizando autenticação para sessão e ACL
 
 ## Setup
 
